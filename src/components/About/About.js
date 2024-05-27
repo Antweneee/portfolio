@@ -5,8 +5,11 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../assets/Antoine_square.jpeg";
 import Tilt from "react-parallax-tilt";
+import { useTranslation } from 'react-i18next';
 
 function About() {
+  const { t, i18n } = useTranslation(); 
+
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -21,7 +24,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Who <strong className="purple">I am</strong> ?
+            {t("about-section1")} <strong className="purple">{t("about-section2")}</strong> {t("about-section3")}
             </h1>
             <Aboutcard />
           </Col>

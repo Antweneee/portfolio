@@ -506,3 +506,24 @@ button:focus {
   border: 0px;
 }
 
+/* --------- */
+/* Projects */
+/* --------- */
+
+.projects-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.project-card-view {
+  border: none !important;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.projects-carousel {
+  color: #0c0513;
+}

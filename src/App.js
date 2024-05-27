@@ -3,6 +3,7 @@ import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import {
   BrowserRouter as Router,
@@ -43,6 +44,11 @@ function App() {
               <Route path="/about" element={
                 <Suspense fallback={<div>Loading...</div>}>
                   <About />
+                </Suspense>
+              } />
+              <Route path="/projects" element={
+                <Suspense fallback={<div>Loading...</div>}>
+                  <Projects />
                 </Suspense>
               } />
               <Route path="*" element={

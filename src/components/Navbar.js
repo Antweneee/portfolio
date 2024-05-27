@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineUser,
+  AiFillProject
 } from "react-icons/ai";
 import { useTranslation } from 'react-i18next';
 
@@ -66,6 +67,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/projects"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillProject style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 

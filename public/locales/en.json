@@ -29,5 +29,11 @@
     "about-activity2": "Sports 🏋🏻",
     "about-activity3": "Reading 📚",
     "about-activity4": "Trying to do better",
-    "about-activity5": "Learning new things"
+    "about-activity5": "Learning new things",
+    "projects-livna-description1": "During my internship at LIVNA as a fullstack developer I used Javascript and nestJS for the backend part, SQL to manipulate the database",
+    "projects-livna-description2": "React JS for the font-end part, I built a full responsive web site and I also created a chrome extension for the product",
+    "projects-area-description1": "During my third year at EPITECH we did this group project where I was a backend developer.",
+    "projects-area-description2": "The purpose of the project was to create a web application and a mobile application like IFTTT that allowed linking various services such as Google, Instagram, Spotify, etc., in order to create actions and reactions such as: if I receive an email from Illyas Chihi -> change the music on Spotify.",
+    "projects-epitech-description1": "During my years of study at EPITECH I did a lot of project, projects is C, C++, JS, python and more. You can find all of my project that I did during these years ",
+    "projects-epitech-description2": "HERE"
 }
