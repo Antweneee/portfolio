@@ -35,6 +35,8 @@
     "projects-livna-description2": "React JS pour la partie front-end. J'ai construit un site web entièrement responsive et j'ai également créé une extension Chrome pour le produit.",
     "projects-area-description1": "Pendant ma troisième année à EPITECH, nous avons réalisé ce projet de groupe où j'étais développeur backend.",
     "projects-area-description2": "Le but du projet était de créer une web application et une application mobile comme IFTTT qui permetais de lier plusieurs services tel que google, instagram, spotify etc afin de créer des actions et réaction de type: si je recois un mail d'illyas chihi -> change la musique sur spotify.",
+    "projects-anthologia-description1": "Anthologia est un projet open source visant à créer une plateforme journalistique qui pousse le contenu sur IPFS, le rendant ainsi décentralisé et non censurable.",
+    "projects-anthologia-description2": "React JS pour la partie front-end. Nous avons d’abord construit le back-end en Go avec une architecture de microservices, mais nous sommes passés à un back-end en Nest JS. Le backend centralisé ainsi que plusieurs service sont heberger sur GCP.",
     "projects-epitech-description1": "Pendant mes années d'études à EPITECH, j'ai réalisé de nombreux projets, en C, C++, JS, Python, et bien d'autres encore. Vous pouvez retrouver tous les projets que j'ai réalisés au cours de ces années ",
     "projects-epitech-description2": "ICI"
 }
