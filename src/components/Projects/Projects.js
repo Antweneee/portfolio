@@ -13,16 +13,24 @@ function Projects() {
     const AreaTwo = require("../../assets/AreaTwo.png")
     const AreaThree = require("../../assets/AreaThree.png")
 
+    const AnthologiaOne = require("../../assets/AnthologiaOne.png")
+    const AnthologiaTwo = require("../../assets/AnthologiaTwo.png")
+    const AnthologiaThree = require("../../assets/AnthologiaThree.png")
+
     const EpitechLogo = require("../../assets/epitech-logo.png")
 
     const imageUrlLivna = [LivnaOne, LivnaTwo, LivnaThree];
     const imageUrlArea = [AreaOne, AreaTwo, AreaThree];
+    const imageUrlAnthologia = [AnthologiaOne, AnthologiaTwo, AnthologiaThree]
 
     const LivnaDescOne = t("projects-livna-description1")
     const LivnaDescTwo = t("projects-livna-description2")
 
     const AreaDescOne = t("projects-area-description1")
     const AreaDescTwo = t("projects-area-description2")
+
+    const AnthologiaDescOne = t("projects-anthologia-description1")
+    const AnthologiaDescTwo = t("projects-anthologia-description2")
 
     return (
         <Container fluid className="projects-section">
@@ -96,12 +104,22 @@ function Projects() {
 
             <ProjectInstance
                 title={"AREA"}
-                languages={"JS, PYTHON, GOLANG, POSTGRESQL, NODEJS, NESTJS, REACT JS, FLUTTER, DART, DOCKER, GITHUB ACTION"}
+                languages={"JS, PYTHON, GOLANG, POSTGRESQL, NODEJS, REACT JS, FLUTTER, DART, DOCKER, GITHUB ACTION"}
                 description={[
                     AreaDescOne,
                     AreaDescTwo
                 ]}
                 imageUrls={imageUrlArea}
+            />
+
+            <ProjectInstance
+                title={"Anthologia"}
+                languages={"JS-TS, GOLANG, IPFS, POSTGRESQL, NODEJS, NESTJS, REACT JS, FLUTTER, DOCKER, GITHUB ACTION, GCP"}
+                description={[
+                    AnthologiaDescOne,
+                    AnthologiaDescTwo
+                ]}
+                imageUrls={imageUrlAnthologia}
             />
         </Container>
     );
