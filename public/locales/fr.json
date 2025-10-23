@@ -38,5 +38,8 @@
     "projects-anthologia-description1": "Anthologia est un projet open source visant à créer une plateforme journalistique qui pousse le contenu sur IPFS, le rendant ainsi décentralisé et non censurable.",
     "projects-anthologia-description2": "React JS pour la partie front-end. Nous avons d’abord construit le back-end en Go avec une architecture de microservices, mais nous sommes passés à un back-end en Nest JS. Le backend centralisé ainsi que plusieurs service sont heberger sur GCP.",
     "projects-epitech-description1": "Pendant mes années d'études à EPITECH, j'ai réalisé de nombreux projets, en C, C++, JS, Python, et bien d'autres encore. Vous pouvez retrouver tous les projets que j'ai réalisés au cours de ces années ",
-    "projects-epitech-description2": "ICI"
+    "projects-epitech-description2": "ICI",
+    "projects-eoy-title": "Projet de fin d'étude",
+    "projects-eoy-description1": "Pendant mon projet de fin d'étude, j'ai travaillé chez thales sur une application confidentiel, ma mission devops était de transitionner un pipeline Jenkins Windows vers un pipeline Jenkins Linux RHEL9.",
+    "projects-eoy-description2": "Ce projet très challengeant m'a permis de toucher à beacoup de technologie comme Jenkins, Cypress, Java, shell scripting et bien d'autres."
 }

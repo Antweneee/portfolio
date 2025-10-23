@@ -37,7 +37,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <button className="language-button" onClick={() => changeLanguage('en')}>🇺🇸</button>
+        <button className="language-button" onClick={() => changeLanguage('en')}>🇬🇧</button>
         <button className="language-button" onClick={() => changeLanguage('fr')}>🇫🇷</button>
         <Navbar.Brand href="/" className="d-flex">
           

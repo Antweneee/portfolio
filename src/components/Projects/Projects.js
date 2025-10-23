@@ -9,28 +9,37 @@ function Projects() {
     const LivnaTwo = require("../../assets/livnaTwo.jpg");
     const LivnaThree = require("../../assets/livnaThree.jpg");
 
-    const AreaOne = require("../../assets/AreaOne.png")
-    const AreaTwo = require("../../assets/AreaTwo.png")
-    const AreaThree = require("../../assets/AreaThree.png")
+    const AreaOne = require("../../assets/AreaOne.png");
+    const AreaTwo = require("../../assets/AreaTwo.png");
+    const AreaThree = require("../../assets/AreaThree.png");
 
-    const AnthologiaOne = require("../../assets/AnthologiaOne.png")
-    const AnthologiaTwo = require("../../assets/AnthologiaTwo.png")
-    const AnthologiaThree = require("../../assets/AnthologiaThree.png")
+    const AnthologiaOne = require("../../assets/AnthologiaOne.png");
+    const AnthologiaTwo = require("../../assets/AnthologiaTwo.png");
+    const AnthologiaThree = require("../../assets/AnthologiaThree.png");
 
-    const EpitechLogo = require("../../assets/epitech-logo.png")
+    const EpitechLogo = require("../../assets/epitech-logo.png");
+
+    const EOSOne = require("../../assets/Jenkins-logo.png");
+    const EOSTwo = require("../../assets/Thales_logo.jpg");
+    const EOSThree = require("../../assets/red_hat.jpg");
 
     const imageUrlLivna = [LivnaOne, LivnaTwo, LivnaThree];
     const imageUrlArea = [AreaOne, AreaTwo, AreaThree];
-    const imageUrlAnthologia = [AnthologiaOne, AnthologiaTwo, AnthologiaThree]
+    const imageUrlAnthologia = [AnthologiaOne, AnthologiaTwo, AnthologiaThree];
+    const imageUrlEOS = [EOSTwo, EOSOne, EOSThree];
 
-    const LivnaDescOne = t("projects-livna-description1")
-    const LivnaDescTwo = t("projects-livna-description2")
+    const LivnaDescOne = t("projects-livna-description1");
+    const LivnaDescTwo = t("projects-livna-description2");
 
-    const AreaDescOne = t("projects-area-description1")
-    const AreaDescTwo = t("projects-area-description2")
+    const AreaDescOne = t("projects-area-description1");
+    const AreaDescTwo = t("projects-area-description2");
 
-    const AnthologiaDescOne = t("projects-anthologia-description1")
-    const AnthologiaDescTwo = t("projects-anthologia-description2")
+    const AnthologiaDescOne = t("projects-anthologia-description1");
+    const AnthologiaDescTwo = t("projects-anthologia-description2");
+
+    const EndOfYearTitle = t("projects-eoy-title");
+    const EndOfYearDescOne = t("projects-eoy-description1");
+    const EndOfYearDescTwo = t("projects-eoy-description2");
 
     return (
         <Container fluid className="projects-section">
@@ -114,12 +123,22 @@ function Projects() {
 
             <ProjectInstance
                 title={"Anthologia"}
-                languages={"JS-TS, GOLANG, IPFS, POSTGRESQL, NODEJS, NESTJS, REACT JS, FLUTTER, DOCKER, GITHUB ACTION, GCP"}
+                languages={"JS-TS, GOLANG, IPFS, POSTGRESQL, GCP, NODEJS, NESTJS, REACT JS, DOCKER, GITHUB ACTION"}
                 description={[
                     AnthologiaDescOne,
                     AnthologiaDescTwo
                 ]}
                 imageUrls={imageUrlAnthologia}
+            />
+
+            <ProjectInstance
+                title={EndOfYearTitle}
+                languages={"JS-TS, JENKINS, CYPRESS, JAVA, SHELL, BASH, LINUX RHEL9"}
+                description={[
+                    EndOfYearDescOne,
+                    EndOfYearDescTwo
+                ]}
+                imageUrls={imageUrlEOS}
             />
         </Container>
     );
